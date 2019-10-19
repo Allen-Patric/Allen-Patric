@@ -1,0 +1,126 @@
+<!-- color.adobe.com (Great for finding an awesome color scheme)
+https://fonts.google.com/ (Fantastic resource for great looking fonts)
+https://www.designbold.com/academy/en/choosing-the-right-fonts-for-website/ (Excellent read on Font) -->
+
+// String
+// Number
+// Boolean
+// Array
+// Object
+
+// Primitives
+    // Strings = "hello"
+    // Numbers = 2
+    // Booleans
+    
+// Complex
+    // Array   = [1, 2, 3, 4]
+    // Objects
+    
+// String
+    var name = 'Joe'
+    
+// Number
+    var age = 20
+    
+// Boolean = true or false
+    var isAlive = true
+    var hasDoneTaxes = false
+    
+// Array - List of similar items . (0 indexed)
+    var numbers = [1, 2, 3, 4, 5, 6, 7]
+    numbers[3]
+    
+// Object - Explains a singular item in depth . (key value pairs)
+    var person = {
+        name: "Steve",
+        age: 21,
+        hairColor: "brown",
+        isAlive: true
+    }
+    // Logic Operators
+    // && - and
+    // || - or
+    // !  - not
+    // Switch Statement
+var color = "blue"
+
+switch(color){
+    case "red":
+        console.log("The color is red")
+        break
+    case "blue":
+        console.log("The color is blue")
+        break
+    case "yellow":
+        console.log("The color is yellow")
+        break
+}
+For loops
+for(var i =0; i<10; i++){
+    ^Where does my for loop being?; When does my for loop stop?; In what increments does my for loop count?;
+    console.log(i)
+
+}
+'while' loops don't start and stop, it is a condition.
+ex:
+
+var count = 0
+while(count<10){
+    console.log('hi')
+    count++
+}
+// Functions Part 1
+
+// DRY
+    // Do not repeat yourself
+    
+// Statement
+// var name = "nate"
+    
+// Function Declaration  
+// function sum(){
+//     console.log(2 + 2)
+// }
+
+// // Function Expression
+// var mySumFunction = function(){
+//     console.log(2 + 2)
+// }
+
+// Parameters
+function sum(num1, num2){
+    return num1 + num2
+}
+// var name = "nate"
+    
+// Function Declaration  
+// function sum(){
+//     console.log(2 + 2)
+// }
+
+// // Function Expression
+// var mySumFunction = function(){
+//     console.log(2 + 2)
+// }
+
+// Parameters
+function sum(num1, num2){
+    return num1 + num2
+}
+// innerHTML - security risk
+// innerText - "expensive"
+// textContent
+
+// var person = {name: "Joe"}
+// person.name = "Jim"
+// console.log(person)
+
+/**
+ * 1. Select the h1 element
+ * 2. Save the h1 element's text to a variable
+ * 3. Change the paragraph element's text to be the same as the text inside the h1
+ */
+
+var text = document.querySelector("#header").textContent
+document.querySelector("#paragraph").textContent = text

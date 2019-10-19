@@ -1,0 +1,24 @@
+~/Dev/Module-1/escapeRoom $ readline-sync
+bash: readline-sync: command not found
+~/Dev/Module-1/escapeRoom $ code .
+~/Dev/Module-1/escapeRoom $ .
+bash: .: filename argument required
+.: usage: . filename [arguments]
+~/Dev/Module-1/escapeRoom $ 
+~/Dev/Module-1/escapeRoom $ npm install readline-sync
+npm WARN escapeRoom@1.0.0 No description
+npm WARN escapeRoom@1.0.0 No repository field.
+
++ readline-sync@1.4.10
+updated 1 package and audited 1 package in 0.777s
+found 0 vulnerabilities
+
+~/Dev/Module-1/escapeRoom $ readline-sync
+bash: readline-sync: command not found
+~/Dev/Module-1/escapeRoom $ what is your name
+is: No such file or directory
+~/Dev/Module-1/escapeRoom $ what is your name
+is: No such file or directory
+~/Dev/Module-1/escapeRoom $ 
+~/Dev/Module-1/escapeRoom $ node  app.js
+May I have your name?

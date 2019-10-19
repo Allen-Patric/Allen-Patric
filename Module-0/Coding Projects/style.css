@@ -1,0 +1,28 @@
+style.css
+.logo
+{
+    height:300px;
+    width: auto;
+}
+.header{
+    text-align: left
+
+
+}
+body{
+    background-color: blanchedalmond;
+    font-size: 24;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+p{
+    font-weight: bold
+}
+.comment{
+    height: 300px;
+    width: 600px;
+}
+
+li{
+    color: brown;
+}

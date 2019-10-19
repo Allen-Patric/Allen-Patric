@@ -1,0 +1,27 @@
+
+var button = document.getElementById("button")
+button.addEventListener("click", function() {
+    console.log("The button was clicked")
+})
+
+var button = document.getElementById("button")
+
+function handleButtonClick() {
+    console.log("The button was clicked!")
+}
+
+button.addEventListener("click", handleButtonClick)
+
+/**
+ * Challenge:
+ * 
+ * Look up some common HTML/JS events and set up your page to listen for that event.
+ */
+
+document.getElementById("header").addEventListener("dblclick", function() {
+    console.log("The header was double clicked!")
+})
+
+document.getElementById("header").addEventListener("dblclick", function() {
+    document.body.style.backgroundColor = "firebrick"
+})

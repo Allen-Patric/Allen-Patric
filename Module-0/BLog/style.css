@@ -1,0 +1,11 @@
+h1{
+    display: inline-block;
+    background-color: darkgreen;
+    opacity: .8;
+    position: fixed;
+    width: auto;
+    height: 50px;
+}
+h2{
+    text-align: center;
+}

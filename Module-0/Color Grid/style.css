@@ -1,0 +1,62 @@
+/*Here are the colors:
+
+#F5C6D6
+#EE2E84
+#85CFD8
+#8DC63F
+#E76E34
+Hints:
+It's easiest to get the even white "spacing" by actually using a thick, white border around the shapes.
+In order to use percentage widths and not have them wrap, you'll need to add the following line to the top of your CSS:
+* {
+    box-sizing: border-box; 
+    font-size: 0px;
+}*/
+.bigpink{
+    
+        background-color: #f5c6d6;
+        box-sizing: border-box; 
+        border: white solid 2px;
+        font-size: 0px;
+        width: 1020px;
+        height: 175px;
+      
+    }
+    p{
+        background-color: #ee2e84;
+        box-sizing: border-box; 
+        border: white solid 2px;
+        font-size: 0px;
+        width: 250px;
+        height: 175px;
+        display: inline-block;
+    }
+    div
+    {
+        background-color: #85cfd8;
+        box-sizing: border-box; 
+        border: white solid 2px;
+        font-size: 0px;
+        width: 510px;
+        height: 175px;
+        display: inline-block;
+    }
+    .green
+    {
+        background-color: #8dc63f;
+        box-sizing: border-box; 
+        border: white solid 2px;
+        font-size: 0px;
+        width: 760px;
+        height: 175px;
+        display: inline-block;
+    }
+    .orange{
+        background-color: #E76E34;
+        box-sizing: border-box; 
+        border: white solid 2px;
+        font-size: 0px;
+        width: 260px;
+        height: 175px;
+        display: inline-block;
+    }

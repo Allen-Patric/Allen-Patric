@@ -1,0 +1,162 @@
+/*
+You just decided to start a business. You know you need a website, but you're bootstrapping your business
+ without external funding, so you can't pay someone else to do it.
+
+
+
+The type of business doesn't really matter, so get creative with it. This will be a static website, 
+so it doesn't require the use of any JavaScript. However, if you want to go above-and-beyond, 
+you're welcome to include some JavaScript too.
+
+Your site should be well-styled and should look good on mobile screens (that is, it should be responsive).
+
+Project Requirements
+Create a website for your new business that is well-styled, responsive, and includes at least the following items:
+
+Inline/Block elements
+Divs & spans
+Images
+List (navigation bar can count as a "list")
+Headers/paragraphs
+Semantic HTML (HTML 5 new tags)
+CSS Box model (margin, padding, border, width/height
+Responsive (Media queries, Flexbox, Bootstrap Grid, CSS Grids, or any combination of the above)
+Multiple HTML pages, linked
+Passing Criteria: Class Demo
+You'll be showing off your website and explaining your new business venture to the class. 
+This demo will be short, probably only 1-2 minutes each.
+
+This project passes off the following levels of the Skills Tree:
+
+Static Websites, Level 2
+*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(103, 142, 173);
+}
+#title{
+    width: 100%;
+    height:500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+#intro{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: darkred;
+}
+#pain{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: black
+}
+#relief{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: darkred
+}
+#sell{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: black
+}
+#jobstats{
+    width: 100%;
+    height:500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+#how{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black
+}
+#how li{
+    font-size: 25px;
+}
+
+
+#product{
+    position: relative;
+    width: 75%;
+    height:500px;
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color:darkred;
+    font-size:15px;
+    font-family: Georgia, 'Times New Roman', Times, serif'
+}
+#product p{
+    color:black;
+}
+#contact{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    color:black;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif'
+
+}
+
+@media only screen and (min-width: 600px)
+{
+     body{
+         background: purple;
+     }
+     #product{
+         font-size:25px;
+     }
+     h1 p li{ 
+         font-size:40px;
+     }
+
+}
+@media only screen and (min-width: 900px)
+{
+     body{
+         background: white;
+     }
+     #product{
+         font-size:40px;
+     }
+     h1 p li{
+         font-size:50px;
+     }
+
+}

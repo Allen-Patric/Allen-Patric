@@ -1,0 +1,2 @@
+What is the purpose of using node.js 
+when making a grocery app? Will any of my code change? 
