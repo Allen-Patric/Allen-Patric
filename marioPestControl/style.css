@@ -1,0 +1,15 @@
+.pic{
+    display:flex;
+    height:200px;
+    width:200px
+}
+.title{
+    text-align: center;
+    font-size:70px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.total{
+    text-align: center;
+    font-size:30px;
+
+}

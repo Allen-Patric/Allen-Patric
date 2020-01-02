@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href='style.css'> 
+    <title>Travel Form</title>
+</head>
+<body>
+
+    <form name='myForm'>
+
+        First Name: <input type='text' name='firstName'/>
+
+        Last Name: <input type='text' name='lastName'/>
+
+       Age: <input type='number' name='age'/>
+
+       Male: <input type="radio" name="gender" value="Male"/>
+       Female: <input type="radio" name="gender" value="Female"/>
+
+        <div>Where would you like to travel?</div>
+
+        <select name = 'location'>
+
+            <option value='Philippines'>Philippines</option>
+
+            <option value='Switzerland'>Switzerland</option>
+
+            <option value='New York'>New York</option>
+
+        </select>
+
+        <div>Which are your favorite? Select all that apply:</div>
+
+        <br></br>
+
+           <div> 
+
+               None
+
+               <input type="checkbox" value="None" name="dietR"/> 
+
+            </div>
+
+            <br></br>
+
+           <div> 
+               
+               Vegan
+
+               <input type="checkbox" value="Vegan" name="dietR"/> 
+
+            </div>
+
+            <br></br>
+
+            <div> 
+               
+                    Keto
+     
+                    <input type="checkbox" value="Keto" name="dietR"/> 
+     
+                 </div>
+
+            <br></br>
+
+        <button>Submit</button>
+
+    </form>
+
+    <script src='app.js'></script>
+</body>
+</html>

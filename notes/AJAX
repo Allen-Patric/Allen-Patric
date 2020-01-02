@@ -1,0 +1,77 @@
+# XMLHttpRequest constructor
+
+    - The Javascript XMLHttpRequest constructor is used to make asynchronous HTTP requests from a javascript application.
+    
+    - This constructor uses callbacks to track the progress of a server requests and handle the response sent back.
+    
+// XMLHttpRequest
+
+// how do we create a request (xhr)
+// what parts of this object are important for our request
+
+
+// xhr.onreadystatechange
+// xhr.readyState
+// xhr.status
+
+const xhr = new XMLHttpRequest()
+
+xhr.onreadystatechange = function(){
+    if(xhr.readyState === 4 && xhr.status === 200){
+        
+    }
+}
+
+// xhr.readyState  
+    // 1 - request has been sent
+    // 2 
+    // 3
+    // 4
+    
+// xhr.status
+    // 200
+    // 404 - not found
+    // 201
+    // 500
+
+# XMLHttpRequest
+    
+    - Two methods are used to set up and send the HTTP request, these methods are:
+        - xhr.open() - to set up the request
+        - xhr.send() - to send the request
+        
+    - The xhr object will also store the data received from the server as the xhr.responseText
+        - For the servers we will be using, the responseText will be in JSON format.
+
+        // xhr.onreadystatechange
+// xhr.readyState
+// xhr.status
+// xhr.responseText
+
+// xhr.open()
+// xhr.send()
+
+// url: https://swapi.co/api/people/1
+
+
+const xhr = new XMLHttpRequest()
+        // method  // url                     // async?
+xhr.open("GET", "https://swapi.co/api/people", true)
+xhr.send()
+
+xhr.onreadystatechange = function(){
+    if(xhr.readyState === 4 && xhr.status === 200){
+        const JSONdata = xhr.responseText
+        const data = JSON.parse(JSONdata)
+        showData(data.results)
+    } 
+}
+
+
+function showData(arr){
+    for(let i = 0; i < arr.length; i++){
+        const h1 = document.createElement('h1')
+        h1.textContent = arr[i].name
+        document.body.appendChild(h1)
+    }
+}

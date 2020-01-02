@@ -1,0 +1,26 @@
+# Error Handling
+    
+    ## Keywords
+        * try
+        * catch
+        * finally
+        * throw
+        * Error
+
+
+
+try {
+    //trys something
+    // if an error occurs an error is thrown
+    if(2 === 2){
+       throw new Error("Hey I am an error!")
+    }
+    console.log("Did I console log?")
+}
+catch(err){
+    //handles the error
+    console.log(err)
+}
+finally {
+   console.log("I am running no matter what!") 
+}

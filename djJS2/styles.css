@@ -1,0 +1,75 @@
+#box1{
+    height:300px;
+    width:300px;
+    background-color: firebrick;
+    padding: 10px;
+    margin: 10px;
+    transition: background-color 100ms linear 100ms, width 100ms linear;
+}
+#box1:hover{
+    background-color: blue;
+    width: 500px;
+}
+#box2{
+    height:300px;
+    width:300px;
+    background-color: yellow;
+    padding: 10px;
+    margin: 10px;
+    transition: margin 100ms linear 100ms, box-shadow 100ms linear;
+}
+#box2:hover{
+    box-shadow: 50px 100px;
+    margin: 100px;
+}
+#box3{
+    height:300px;
+    width:300px;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    transition: width 2s linear, height 2s linear, font-size 2s linear, color 2s;
+}
+#box3:hover{
+    width: 1750px;
+    height: 10000px;
+    font-size: 300px;
+    color:white;
+}
+#box4{
+    height:300px;
+    width:300px;
+    background-color: darkmagenta;
+    padding:10px;
+    margin:10px;
+    transition: opacity 2s linear; 
+
+}
+#box4:hover{
+    opacity: 0;
+}
+#box5{
+    height:300px;
+    width:300px;
+    background-color: royalblue;
+    padding:10px;
+    margin:10px;
+    transition: width 2s linear, opacity 2s linear;
+}
+#box5:hover{
+    width: 700px;
+    opacity: .5;
+
+}
+#box6{
+    height:300px;
+    width:300px;
+    background-color: forestgreen;
+    padding:10px;
+    margin:10px;
+    transition: background-color 2s linear;
+}
+#box6:hover{
+    background-color:yellow;
+    transform-origin: 30% 50% 0px;
+}

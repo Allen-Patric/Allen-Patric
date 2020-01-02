@@ -1,0 +1,45 @@
+// Higher Order Functions
+// callback is a function passed into another function
+
+function doMath(num1, num2, callback){
+    return callback(num1, num2)
+}
+
+
+function sum(num1, num2){
+    return num1 + num2
+}
+
+function subtract(num1, num2){
+    return num1 - num2
+}
+
+
+console.log(doMath(5, 10, subtract)) 
+
+.map()
+    returns: A new array the same size as the input array
+    purpose: allows you to take an array of data and create a new array of data from it.
+    
+// Higher order array methods
+// .map()
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8]
+
+// const result = arr.map(function(num){ // arr[i]
+//     return num + 10
+// })
+
+// const result = arr.map(num => num + 10)
+
+const users = [
+    { name: "joe" },
+    { name: "steve" },
+    { name: "lisa" }
+]
+
+const result = users.map(function(user){
+    return user.name
+})
+
+console.log(result)
